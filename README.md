@@ -10,7 +10,7 @@
   - Continuous Bag of Words:  It aims to predict a center word from the surrounding context in terms of word vectors. 
   - Skip-gram : It does the opposite of CBOW, and predicts the distribution of context words from a center word.
 
-**Training Methods**:
+**Training Methods**
   - Negative Sampling - It defines an objective by sampling negative samples
   - Hierarchical Softmax: It defines an objective using an efficient tree structure to compute the probabilities for all the vocabulary. 
  
