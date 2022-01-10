@@ -48,3 +48,24 @@
 - Reference:
   - [Negative sampling paper](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 
+[**Day4**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6886183414148538368-JZfB)
+
+**💡 Word Embeddings**: 
+
+- Word Embeddings are the texts converted into numbers. There may be different numerical representations of the same text.
+
+**💡 Word Embeddings**: 
+
+- Similar words tend to occur together and will have a similar context. For a given corpus, the co-occurrence of a pair of words say w1 and w2 is the number of times they have appeared together in a Context Window. How to form Co-occurrence matrix:
+
+      1. The matrix A stores co-occurrences of words.
+      2. In this method, we count the number of times each word appears inside a window of a particular size around the word of interest.
+      3. Calculate this count for all the words in the corpus.
+- For a huge corpus, this co-occurrence matrix could become really complex (high-dimension). To avoid this problem, we use Singular value decomposition(SVD) and principal component analysis(PCA) are two eigenvalue methods used to reduce a high-dimensional dataset into fewer dimensions while retaining important information.
+- Both of these methods give us word vectors that are more than sufficient to encode semantic and syntactic (part of speech) information but are associated with many other   problem:
+  
+      1. The dimensions of the matrix change very often (new words are added very frequently and corpus changes in size).
+      2. The matrix is extremely sparse since most words do not cooccur.
+      3. The matrix is very high dimensional in general ( 106 *106 )
+      4. Quadratic cost to train (i.e. to perform SVD)
+      5. Requires the incorporation of some hacks on X to account for the drastic imbalance in word frequency
