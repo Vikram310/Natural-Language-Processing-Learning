@@ -1,6 +1,6 @@
 # Natural-Language-Processing-Learning
 
-[**Day1**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6884374937344335874-bziD)
+[**Day 1**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6884374937344335874-bziD)
 
 **💡 Word2Vec**: 
 - A two layer neural network to generate word embeddings given a text corpus. Word Embeddings is mapping of words in a vector space. It Preserves relationship between words. It Deals with addition of new words in the vocabulary. Also, it gives better results in lots of deep learning applications. 
@@ -18,7 +18,7 @@
   - [Paper on Word2Vec](http://arxiv.org/pdf/1301.3781.pdf)
   - [Negative sampling paper](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 
-[**Day2**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6884737641330413568-QZNn)
+[**Day 2**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6884737641330413568-QZNn)
 
 **💡 Skip-gram**: 
 - The training objective of the Skip-gram model is to find word representations that are useful for predicting the surrounding words in a sentence or a document. The basic Skip-gram formulation defines the probability using the SoftMax function. we use SoftMax function because
@@ -35,7 +35,7 @@
 - Reference:
   - [Negative sampling paper](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 
-[**Day3**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6885096211460833280-bowt)
+[**Day 3**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6885096211460833280-bowt)
 
 **💡 Hierarchical SoftMax**: 
 
@@ -48,7 +48,7 @@
 - Reference:
   - [Negative sampling paper](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 
-[**Day4**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6886183414148538368-JZfB)
+[**Day 4**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6886183414148538368-JZfB)
 
 **💡 Word Embeddings**: 
 
@@ -69,3 +69,16 @@
       3. The matrix is very high dimensional in general ( 106 *106 )
       4. Quadratic cost to train (i.e. to perform SVD)
       5. Requires the incorporation of some hacks on X to account for the drastic imbalance in word frequency
+
+[**Day 5**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6886547204912230400-r5n-)
+
+**💡 Glove for word representations**: 
+
+- Semantic vector space models of language represent each word with a real-valued vector. These vectors can be used as features in a variety of applications, such as information retrieval, document classification, question answering, named entity recognition, and parsing. There were two popular methods for word embeddings, which are Matrix Factorization methods and Shallow window based methods. 
+- Matrix Factorization methods (such as LSA and HAL) are count-based, effectively leveraging global statistical information. They are primarily used to capture word similarities and do poorly on tasks such as word analogy, indicating a sub-optimal vector space structure. 
+- Shallow-window based methods (such as skip-gram and CBOW). learn word embeddings by making predictions in local context windows. These models demonstrate the capacity to capture complex linguistic patterns beyond word similarity, but fail to make use of the global co-occurrence statistics.
+- Glove was introduced to overcome the problems in previous models. GloVe, is a new global log-bilinear regression model for the unsupervised learning of word representations that outperforms other models on word analogy, word similarity, and named entity recognition tasks. 
+- GloVe (Global Vectors) consists of a weighted least squares model that trains on global word-word co-occurrence counts and thus makes efficient use of statistics. The model produces a word vector space with meaningful sub-structure. It shows state-of-the-art performance on the word analogy task, and outperforms other current methods on several word similarity tasks.
+
+Reference:
+- [Paper on Glove](http://nlp.stanford.edu/pubs/glove.pdf)
