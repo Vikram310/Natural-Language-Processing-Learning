@@ -115,5 +115,7 @@ Reference:
 
 - Subword Tokenization splits the piece of text into subwords (or n-gram characters). For example, words like lower can be segmented as low-er, smartest as smart-est, and so on. Transformer-based models – the SOTA in NLP relies on Subword Tokenization algorithms for preparing vocabulary. Byte-pair encoding (BPE) is a simple form of data compression algorithm in which the most common pair of consecutive bytes of data is replaced with a byte that does not occur in that data.
 
+[**Implementation**](https://github.com/Vikram310/Natural-Language-Processing-Learning/blob/main/Code%20files/Tokenization.ipynb) 
+
 Reference:
 - Google
