@@ -96,3 +96,24 @@ Reference:
 
 Reference:
 - [Paper on evaluation methods](http://www.aclweb.org/anthology/D15-1036)
+
+[**Day 7**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6887638675119841280-HCfS)
+
+**💡 Tokenization**: 
+
+- Tokenization is a way of separating a piece of text into smaller units called tokens. Here, tokens can be either word, characters, or subwords. Hence, tokenization can be broadly classified into 3 types – word, character, and subword (n-gram characters) tokenization. As tokens are the building blocks of Natural Language, the most common way of processing the raw text happens at the token level. As tokens are the building blocks of Natural Language, the most common way of processing the raw text happens at the token level.
+
+**Word Tokenization**: 
+
+- Word Tokenization is the most commonly used tokenization algorithm. It splits a piece of text into individual words based on a certain delimiter. Depending upon delimiters, different word-level tokens are formed. Pretrained Word Embeddings such as Word2Vec and GloVe come under word tokenization. One of the major issues with word tokens is dealing with Out Of Vocabulary (OOV) words. OOV words refer to the new words which are encountered at testing. These new words do not exist in the vocabulary. Hence, these methods fail in handling OOV words.
+
+**Character Tokenization**:
+
+- Character Tokenization splits apiece of text into a set of characters. It overcomes the drawbacks we saw above about Word Tokenization. It handles OOV words coherently by preserving the information of the word. It breaks down the OOV word into characters and represents the word in terms of these characters. Character tokens solve the OOV problem but the length of the input and output sentences increases rapidly as we are representing a sentence as a sequence of characters. As a result, it becomes challenging to learn the relationship between the characters to form meaningful words.
+
+**Sub-word Tokenization**:
+
+- Subword Tokenization splits the piece of text into subwords (or n-gram characters). For example, words like lower can be segmented as low-er, smartest as smart-est, and so on. Transformer-based models – the SOTA in NLP relies on Subword Tokenization algorithms for preparing vocabulary. Byte-pair encoding (BPE) is a simple form of data compression algorithm in which the most common pair of consecutive bytes of data is replaced with a byte that does not occur in that data.
+
+Reference:
+- Google
