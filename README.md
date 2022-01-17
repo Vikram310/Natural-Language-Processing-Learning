@@ -126,18 +126,18 @@ Reference:
 
 - Stemming is a natural language processing technique that lowers inflection in words to their root forms, hence aiding in the preprocessing of text, words, and documents for text normalization. The presence of these variances in a text corpus results in data redundancy when developing NLP or machine learning models. Such models may be ineffective. To build a robust model, it is essential to normalize text by removing repetition and transforming words to their base form through stemming. There are several kinds of stemming algorithms:
 
-**Porter Stemmer – PorterStemmer()**: Five steps of word reduction are used in the method, each with its own set of mapping rules. It is renowned for its ease of use and rapidity. Frequently, the resultant stem is a shorter word with the same root meaning.
+- **Porter Stemmer – PorterStemmer()**: Five steps of word reduction are used in the method, each with its own set of mapping rules. It is renowned for its ease of use and rapidity. Frequently, the resultant stem is a shorter word with the same root meaning.
 
-**Snowball Stemmer – SnowballStemmer()**: The method utilized in this instance is more precise. It is somewhat faster and more logical than the original Porter Stemmer.
+- **Snowball Stemmer – SnowballStemmer()**: The method utilized in this instance is more precise. It is somewhat faster and more logical than the original Porter Stemmer.
 
-**Lancaster Stemmer – LancasterStemmer()**: It is straightforward, although it often produces results with excessive stemming. Over-stemming renders stems non-linguistic or meaningless.
+- **Lancaster Stemmer – LancasterStemmer()**: It is straightforward, although it often produces results with excessive stemming. Over-stemming renders stems non-linguistic or meaningless.
 
-**Regexp Stemmer – RegexpStemmer()**: It identifies morphological affixes using regular expressions. Substrings matching the regular expressions will be discarded.
+- **Regexp Stemmer – RegexpStemmer()**: It identifies morphological affixes using regular expressions. Substrings matching the regular expressions will be discarded.
 
-There are 2 major errors in Stemming Algorithms:
+- There are 2 major errors in Stemming Algorithms:
 
-    **OverStemming**: Over-stemming is when two words with different stems are stemmed to the same root. This is also known as a false positive.
-    **UnderStemming**: Under-stemming is when two words that should be stemmed to the same root are not. This is also known as a false negative.
+      **OverStemming**: Over-stemming is when two words with different stems are stemmed to the same root. This is also known as a false positive.
+      **UnderStemming**: Under-stemming is when two words that should be stemmed to the same root are not. This is also known as a false negative.
 
 Reference:
 - Google
