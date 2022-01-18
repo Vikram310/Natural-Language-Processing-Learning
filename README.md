@@ -141,3 +141,20 @@ Reference:
 
 Reference:
 - Google
+
+[**Day 9**]
+
+**💡 Lemmatization**: 
+
+- Lemmatization is a method responsible for grouping different inflected forms of words into the root form, having the same meaning. It is similar to stemming, in turn, it gives the stripped word that has some dictionary meaning.
+-Most commonly used Lemmatizers:
+    
+    1. WordNet Lemmatizer
+    2. Spacy Lemmatizer
+    
+- Lemmatization is slower as compared to stemming but it knows the context of the word before proceeding and is a bit slower compared to Stemming.
+- Lemmatization always gives the dictionary meaning word while converting into root-form and also, Accuracy is more as compared to Stemming.
+- Lemmatization would be recommended when the meaning of the word is important for analysis, whereas Stemming is recommended where the meaning is not important.
+
+Reference:
+- Google
