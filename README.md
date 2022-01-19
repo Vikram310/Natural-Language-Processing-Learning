@@ -146,12 +146,11 @@ Reference:
 
 **💡 Lemmatization**: 
 
-- Lemmatization is a method responsible for grouping different inflected forms of words into the root form, having the same meaning. It is similar to stemming, in turn, it gives the stripped word that has some dictionary meaning.
--Most commonly used Lemmatizers:
-    
-    1. WordNet Lemmatizer
-    2. Spacy Lemmatizer
-    
+- Lemmatization is a method responsible for grouping different inflected forms of words into the root form, having the same meaning. It is similar to stemming, in turn, it gives the stripped word that has some dictionary meaning. Most commonly used Lemmatizers:
+
+      - **WordNet Lemmatizer:** Wordnet is a publicly available lexical database of over 200 languages that provides semantic relationships between its words. It links words into semantic relations. It groups synonyms in the form of synsets, which are groups of data elements that are semantically equivalent
+      - **Text Blob Lemmatizer:** TextBlob is a python library used for processing textual data. It provides a simple API to access its methods and perform basic NLP tasks.
+
 - Lemmatization is slower as compared to stemming but it knows the context of the word before proceeding and is a bit slower compared to Stemming.
 - Lemmatization always gives the dictionary meaning word while converting into root-form and also, Accuracy is more as compared to Stemming.
 - Lemmatization would be recommended when the meaning of the word is important for analysis, whereas Stemming is recommended where the meaning is not important.
