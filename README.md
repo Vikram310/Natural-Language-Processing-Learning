@@ -158,3 +158,19 @@ Reference:
 
 Reference:
 - Google
+
+[**Day 10**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6890170884942888960-nVpK)
+
+**💡 Term Frequency - Inverse Document Frequency(TF-IDF)**:
+
+- TF-IDF is a statistical measure that evaluates how relevant a word is to a document in a collection of documents. It is computed by multiplying two metrics:
+  
+      1. Term Frequency (Number of times a word appears in a sentence)
+      2. Inverse document frequency ( Number of sentences containing that word)
+      
+- TF-IDF is much more preferred than Bag-Of-Words, in which every word, is represented as 1 or 0, every time it gets appeared in each Sentence, while, in TF-IDF, gives weightage to each Word separately, which in turn defines the importance of each word than others. 
+- IDF helps to compute the weight of rare words across all sentences in the corpus. It is useful for reducing the weight of terms that are common within a collection of documents. The log of this figure is used to dampen the effect of IDF.
+- It works by increasing proportionally to the number of times a word appears in a document but is compensated by the number of documents that contain the word. So, words that are common in every document, such as stop words, rank low even though they may appear many times since they don’t mean much to that document in particular.
+
+Reference: 
+ - Google
