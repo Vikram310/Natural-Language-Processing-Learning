@@ -174,3 +174,13 @@ Reference:
 
 Reference: 
  - Google
+
+[**Day 11**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6891258011613065216-1ask)
+
+**💡 Part of Speech tagging**:
+
+- The process of classifying words into their Parts of Speech and Labeling them accordingly is known as Part of Speech Tagging which is also known as POS tagging or simply Tagging. The collection of tags used for a particular task is known as Tagset.Default tagging is a basic step for part-of-speech tagging. It is performed using the DefaultTagger class. The DefaultTagger class takes ‘tag’ as a single argument. NN is the tag for a singular noun. 
+- DefaultTagger is most useful when it gets to work with the most common part-of-speech tag. that’s why a noun tag is recommended.The regular expression tagger assigns tags to tokens on the basis of matching patterns. For instance, we might guess that any word ending in ed is the past participle of a verb, and any word ending with 's is a possessive noun. We can express these as a list of regular expressions
+
+Reference: 
+ - Google
