@@ -184,3 +184,16 @@ Reference:
 
 Reference: 
  - Google
+
+[**Day 12**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6891621562076807168-v2OW)
+
+**💡 Supervised Classification**:
+
+- Classification is the task of choosing the correct class label for a given input. In basic classification tasks, each input is considered in isolation from all other inputs, and the set of labels is defined in advance. Deciding whether an email is spam or not is an example. 
+- The basic classification task has a number of interesting variants. For example, in multi-class classification, each instance may be assigned multiple labels; in open-class classification, the set of labels is not defined in advance. In sequence classification, a list of inputs is jointly classified. A classifier is called supervised if it is built based on training corpora containing the correct label for each input. 
+- The first step in creating a classifier is deciding what features of the input are relevant, and how to encode those features. Most classification methods require that features be encoded using simple value types, such as booleans, numbers, and strings.Selecting relevant features and deciding how to encode them for a learning method can have an enormous impact on the learning method's ability to extract a good model. Much of the interesting work in building a classifier is deciding what features might be relevant, and how we can represent them.
+
+Reference:
+- Natural Language Processing with Python
+
+
