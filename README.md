@@ -196,4 +196,15 @@ Reference:
 Reference:
 - Natural Language Processing with Python
 
+[**Day 13**](https://www.linkedin.com/posts/vikram--krishna_datawithvikram-datascience-careers-activity-6892354540780294144-j9vB)
 
+**💡 Sequence Classification**: 
+
+- In order to capture the dependencies between related classification tasks, we can use joint classifier models, which choose appropriate labelling for a collection of related inputs. In the case of part-of-speech tagging, a variety of different sequence classifier models can be used to jointly choose part-of-speech tags for all the words in a given sentence.
+- One sequence classification strategy, known as consecutive classification or greedy sequence classification, is to find the most likely class label for the first input, then to use that answer to help find the best label for the next input. The process can then be repeated until all of the inputs have been labelled.
+- This is the approach that was taken by the bigram tagger from N-gram tagging, which began by choosing a part-of-speech tag for the first word in the sentence, and then choosing the tag for each subsequent word based on the word itself and the predicted tag for the previous word.
+- One shortcoming of this approach is that we commit to every decision that we make. For example, if we decide to label a word as a noun, but later find evidence that it should have been a verb, there's no way to go back and fix our mistake.
+- One solution to this problem is to adopt a transformational strategy instead. Transformational joint classifiers work by creating an initial assignment of labels for the inputs, and then iteratively refining that assignment in an attempt to repair inconsistencies between related inputs. The Brill tagger is a good example of this strategy.
+
+Reference:
+- NLTK book
